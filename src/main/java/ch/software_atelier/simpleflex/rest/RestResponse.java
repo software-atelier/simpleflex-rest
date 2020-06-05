@@ -80,7 +80,7 @@ public class RestResponse extends WebDoc {
         else{
             payload = "{\"msg\":\""+msg+"\"}";
         }
-        RestResponse response = new RestResponse("err.htm", Utils.getMime("json"),
+        RestResponse response = new RestResponse("err.htm", Utils.getMimeFromFilePath("file.json"),
                 payload.getBytes());
         response.setHTTPCode(errCode, errMsg);
         
