@@ -90,7 +90,11 @@ public class RestRequest {
     public boolean isSinglePart(){
         return _request.isSinglePartReq();
     }
-    
+
+    public byte[] getRawData(){
+        return _request.getRawData();
+    }
+
     public boolean isMultiPart(){
         return _request.isFormPostReq();
     }
