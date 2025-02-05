@@ -6,6 +6,6 @@ This is a Simpleflex Library for creating REST APIs with a potential Level of 3
         <dependency>
             <groupId>ch.software-atelier</groupId>
             <artifactId>simpleflex-rest</artifactId>
-            <version>2.2.1</version>
+            <version>2.3.0</version>
         </dependency>
 ```
