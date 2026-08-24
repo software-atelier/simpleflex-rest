@@ -12,7 +12,7 @@ The library is published as `ch.software-atelier:simpleflex-rest:2.3.0` and brin
 <dependency>
     <groupId>ch.software-atelier</groupId>
     <artifactId>simpleflex-rest</artifactId>
-    <version>2.3.0</version>
+    <version>2.3.1</version>
 </dependency>
 ```
 
