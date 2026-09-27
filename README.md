@@ -6,17 +6,17 @@ It is intended to be used in a Simpleflex Base `WebApp`. Extend `RestApp` instea
 
 ## Installation
 
-The library is published as `ch.software-atelier:simpleflex-rest:2.3.0` and brings `simpleflex-base:2.3.0` as a transitive dependency.
+The latest published Maven Central version is `ch.software-atelier:simpleflex-rest:2.3.1`. This branch prepares `2.3.2`, which will bring `simpleflex-base:2.3.2` as a transitive dependency once both are published. Use `2.3.1` until the new release is verified on Maven Central. The following snippet is for the forthcoming release:
 
 ```xml
 <dependency>
     <groupId>ch.software-atelier</groupId>
     <artifactId>simpleflex-rest</artifactId>
-    <version>2.3.1</version>
+    <version>2.3.2</version>
 </dependency>
 ```
 
-The project requires Maven 3.2.1 or newer and is compiled for Java 8.
+The project requires Maven 3.9 or newer and is compiled for Java 17.
 
 ## Quick start
 
@@ -304,3 +304,7 @@ mvn test
 ## License
 
 Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt).
+
+## Publishing
+
+See [Release procedure](docs/RELEASING.md) for the Maven Central publishing flow.
