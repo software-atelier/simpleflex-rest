@@ -6,7 +6,7 @@ It is intended to be used in a Simpleflex Base `WebApp`. Extend `RestApp` instea
 
 ## Installation
 
-The latest published Maven Central version is `ch.software-atelier:simpleflex-rest:2.3.1`. This branch prepares `2.3.2`, which will bring `simpleflex-base:2.3.2` as a transitive dependency once both are published. Use `2.3.1` until the new release is verified on Maven Central. The following snippet is for the forthcoming release:
+The latest Maven Central release is [2.3.2](https://central.sonatype.com/artifact/ch.software-atelier/simpleflex-rest/2.3.2). It includes `ch.software-atelier:simpleflex-base:2.3.2` as a transitive dependency. Add it to your project with:
 
 ```xml
 <dependency>
